@@ -1,0 +1,37 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(248, 10%, 15%);
+  padding: 12px 15px;
+  font-size: larger;
+}
+
+.length {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='checkbox'] {
+  border: 1px solid red;
+}
+
+.bold {
+  font-weight: 800;
+  font-size: larger;
+  color: #a4ffaf;
+}
+
+.generateBtn {
+  background-color: #a4ffaf;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #a4ffaf;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+    color: #a4ffaf;
+    cursor: pointer;
+  }
+}
